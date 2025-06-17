@@ -1,0 +1,21 @@
+{
+  "moduleLayout": [
+    ["COM5", "COM6", "COM7"],
+    ["COM8", "COM9", "COM10"]
+  ],
+  "moduleDirection": [
+    [0, 0, 0],
+    [0, 0, 0]
+  ],
+  "camera": [
+    { "name": "Iriun Webcam", "number": 0 }
+  ],
+  "output": [
+    "localhost:12345",
+    "192.168.100.86:12344"
+  ],
+  "recordType": "development",
+  "recordDirectory": "./dataout",
+  "recordName": "test",
+  "secondsPerFile": 600
+}
